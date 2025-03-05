@@ -60,6 +60,13 @@ The idea of de Casteljau Algorithm is to generate a weighted sum of the control 
         <td style="border: none;"><img src="imgs\1-6.png" width="300"></td>
     </tr>
 </tbody></table>
+<p>For a curve with slightly different control points and moving final point, see below:</p>
+<table style="border-collapse: collapse; border: none;">
+    <tbody><tr>
+        <td style="border: none;"><img src="imgs\1-8.png" width="300"></td>
+        <td style="border: none;"><img src="imgs\1-9.png" width="300"></td>
+    </tr>
+</tbody></table>
 <p>For the whole video of the algorithm's visualization, please see below:</p>
 <video width="640" height="360" controls>
     <source src="./videos/1-1.mp4" type="video/mp4">
@@ -115,9 +122,10 @@ The implementation of <code>splitEdge</code> is all about creating new vertices,
 </li>
 <li>
 <p><strong>Results</strong>:<br>
+<img src="imgs\4-1.png" alt=""><br>
 <img src="imgs\5-1.png" alt=""><br>
 <img src="imgs\5-2.png" alt=""><br>
-As can be seen above, I've made complex edge splits, and combined edge splits with edge flip to create beautiful symmetric shape on the teapot.</p>
+These images are meshes before editing, meshes after edge split and meshed after edge split with edge flip. As can be seen above, I've made complex edge splits, and combined edge splits with edge flip to create beautiful symmetric shape on the teapot.</p>
 </li>
 </ul>
 <h3 id="24-loop-subdivision-for-mesh-upsampling">2.4 Loop Subdivision for Mesh Upsampling </h3>
